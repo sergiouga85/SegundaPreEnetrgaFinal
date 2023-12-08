@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "title": "Placa de desarrollo Arduino Nano",
+        "description": "Placa electrónica de desarrollo",
+        "code": "R4",
+        "price": 10000,
+        "status": true,
+        "stock": 25,
+        "category": "Placa Electronica de desarrollo",
+        "thumbnails": "https://www.empowerlaptop.com/wp-content/uploads/2021new/20211117/1600149801648-1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Placa de desarrollo ESP8266",
+        "description": "Placa electrónica de desarrollo",
+        "code": "DR2",
+        "price": 12000,
+        "status": true,
+        "stock": 20,
+        "category": "Placa Electronica de desarrollo",
+        "thumbnails": "https://http2.mlstatic.com/D_NQ_NP_711822-MLA69633096077_052023-O.webp"
+    },
+    {
+        "id": 3,
+        "title": "Estacion de Soldado Gadnic",
+        "description": "Estacion de soldado",
+        "code": "878D",
+        "price": 83000,
+        "status": true,
+        "stock": 50,
+        "category": "Herramientas Electronica",
+        "thumbnails": "https://http2.mlstatic.com/D_NQ_NP_676598-MLA69075214227_042023-O.webp"
+    },
+    {
+        "id": 4,
+        "title": "Multimetro Digital Uni-t",
+        "description": "Tester Multimetro Digital Multirango",
+        "code": "Ut890c",
+        "price": 43000,
+        "status": true,
+        "stock": 30,
+        "category": "Instrumental Electronica",
+        "thumbnails": "https://http2.mlstatic.com/D_NQ_NP_870942-MLU72750426778_112023-O.webp"
+    },
+    {
+        "id": 5,
+        "title": "Raspberry Pi 4b - 4gb Ram Original",
+        "description": "Placa Raspberry Pi 4 Model B 4GB RAM",
+        "code": "ModelB",
+        "price": 119.99,
+        "status": true,
+        "stock": 40,
+        "category": "Placa Electronica",
+        "thumbnails": "https://http2.mlstatic.com/D_NQ_NP_679396-MLA42475857420_072020-O.webp"
+    },
+    {
+        "id": 6,
+        "title": "Soldador Lapiz 70w Goot",
+        "description": "",
+        "code": "PX-201 ",
+        "price": 100.191,
+        "status": true,
+        "stock": 10,
+        "category": "Herramientas",
+        "thumbnails": "https://http2.mlstatic.com/D_NQ_NP_787361-MLA47955223096_102021-O.webp"
+    },
+    {
+        "id": 7,
+        "title": "Display Lcd 18x4",
+        "description": "Display LCD Grafico 128x64 Pixels Backlight Azul",
+        "code": "St7920",
+        "price": 17.290,
+        "status": true,
+        "stock": 60,
+        "category": "Componentes de electronica",
+        "thumbnails": "https://http2.mlstatic.com/D_NQ_NP_783261-MLA31019341371_062019-O.webp"
+    }
+]
