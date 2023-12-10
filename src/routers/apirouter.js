@@ -1,6 +1,5 @@
 import { Router, json } from "express"
 import { productosRouter } from "./productosrouter.js"
-
 import { carritoRouter } from "./carritorouter.js"
 
 export const apiRouter = Router()

@@ -1,7 +1,6 @@
 import { Router } from 'express'
 import { Carrito } from '../models/carrito.mongoose.js'
-import mongoose, { Schema } from 'mongoose'
-import { Producto } from '../models/productos.mongoose.js'
+
 
 export const carritoRouter = Router()
 

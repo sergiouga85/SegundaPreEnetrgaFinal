@@ -1,4 +1,4 @@
-const rutaFetch = 'http://localhost:8080/api/carritos/carritosActivos'
+const rutaFetch = 'http://localhost:8080/api/carritos'
 const rutaFetchNewCarrito = 'http://localhost:8080/api/carritos'
 
 document.getElementById('newCarrito').addEventListener('click', newCarrito)
