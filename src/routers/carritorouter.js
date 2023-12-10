@@ -10,37 +10,6 @@ carritoRouter.get('/', async (req, res) => {
     res.json(carritos)
 })
 
-carritoRouter.get('/carritosActivos', async (req, res) => {
-
-    const carritos = await Carrito.aggregate([
-        { $match: { "status": true } },
-        { $unwind: "$carrito" },
-        {
-            $lookup: {
-                from: "products",
-                localField: "carrito.productID",
-                foreignField: "_id",
-                as: 'datosProducto'
-            }
-        },
-        { $unwind: "$datosProducto" },
-        {
-            $group: {
-                _id: "$_id",
-                total: { $sum: { $multiply: ["$carrito.cant", "$datosProducto.price"] } }
-            }
-        },
-        {
-            $project: {
-                _id: 1,
-                total: 1
-            }
-        }
-
-    ])
-    res.json(carritos)
-})
-
 
 carritoRouter.get('/:cid', async (req, res) => {
     const carritoPorId = await Carrito.findById(req.params.cid).populate('carrito.productID')
