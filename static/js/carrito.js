@@ -53,12 +53,13 @@ function botonera(e) {
         })
             .then(resp => resp.json())
             .then(data => {
-                Toastify({
-                    text: "Producto Eliminado",
-                    style: {
-                        background: "linear-gradient(to right, #A30404, #F94646)",
-                    }
-                }).showToast();
+
+                Swal.fire({
+                    title: "Producto Eliminado!",
+                    icon: "success",
+                    color: "write"
+                  });
+                
                 getCarritoInfo()
             })
     } else if (action === 'upd') {
@@ -123,12 +124,13 @@ function deleteCart(e) {
     })
         .then(resp => resp.json())
         .then(data => {
-            Toastify({
-                text: "Carrito Eliminado",
-                style: {
-                    background: "linear-gradient(to right, #A30404, #F94646)",
-                }
-            }).showToast();
+
+            Swal.fire({
+                title: "Carrito Eliminado!",
+                icon: "success",
+                color: "write"
+              });
+            
             window.location = '/'
         })
         

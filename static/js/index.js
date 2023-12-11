@@ -169,20 +169,17 @@ function addProduct(e) {
     .then (data => {
         console.log(data)
         if (data.message === 'Producto Agregado') {
-            Toastify({
-                text: "Producto agregado",
-                style: {
-                  background: "linear-gradient(to right, #00b09b, #96c93d)",
-                }
-              }).showToast();
+            Swal.fire({
+                title: "Producto agregado!",
+                icon: "success",
+                color: "write"
+              });
         } else if (data.message === 'Producto Actualizado') {
-            Toastify({
-                text: "Producto actualizado",
-                style: {
-                  background: "linear-gradient(to right, #898910, #FAFA08)",
-                }
-              }).showToast();
-
+            Swal.fire({
+                title: "Producto actualizado!",
+                icon: "success",
+                color: "write"
+              });
         }
     })
 

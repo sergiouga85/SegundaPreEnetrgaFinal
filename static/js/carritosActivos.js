@@ -19,7 +19,7 @@ function loadCarritos() {
                     const newElement = document.createElement('tr')
                     newElement.innerHTML = `
                 <th scope="row" style="vertical-align: middle;">${elem._id}</th>
-                <td style="vertical-align: middle;">Subtotal: ${elem.carrito.length}</td>
+                <td style="vertical-align: middle;">Subtotal products: ${elem.carrito.length}</td>
                 <td style="vertical-align: middle;">
                 <input type="radio" class="btn-check" name="options-outlined" id=${elem._id} autocomplete="off">
                 <label class="btn btn-outline-success" for="success-outlined" id=${elem._id}>Continuar</label>
